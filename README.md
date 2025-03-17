@@ -67,7 +67,21 @@ Y= A⊕B
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
  Developed by:Naveen kumar.R
+ 
  RegisterNumber: 212223230139
+"""
+ module de(a,b,yl,y2,y3,y4,y5,y6,y7);
+input a,b;
+output yl, y2, y3, y4, y5,y6,y7;
+and (yl,a,b); 
+or  (y2,a,b);
+not (y3,a);
+xor (y4,a,b);
+nand (y5,a,b); 
+nor (y6,a,b);
+xnor (y7,a,b);
+endmodule
+"""
  
 **Logic symbol & Truthtable**
 ![image](https://github.com/user-attachments/assets/b62b01de-2a52-4953-a99f-f5975197c9c1)
@@ -77,7 +91,8 @@ Program for logic gates and verify its truth table in quartus using Verilog prog
 
 
 **RTL**
-![Screenshot 2025-03-17 143810](https://github.com/user-attachments/assets/9afb8d4f-0177-478b-ae70-158af02ca9f6)
+![image](https://github.com/user-attachments/assets/162ae345-10f6-41e5-bca0-92db8ae68d7c)
+
 
 
 **Result:**
