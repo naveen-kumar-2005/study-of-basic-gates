@@ -69,8 +69,8 @@ Program for logic gates and verify its truth table in quartus using Verilog prog
  Developed by:Naveen kumar.R
  
  RegisterNumber: 212223230139
-"""
- module de(a,b,yl,y2,y3,y4,y5,y6,y7);
+```
+module de(a,b,yl,y2,y3,y4,y5,y6,y7);
 input a,b;
 output yl, y2, y3, y4, y5,y6,y7;
 and (yl,a,b); 
@@ -81,7 +81,8 @@ nand (y5,a,b);
 nor (y6,a,b);
 xnor (y7,a,b);
 endmodule
-"""
+```
+
  
 **Logic symbol & Truthtable**
 ![image](https://github.com/user-attachments/assets/b62b01de-2a52-4953-a99f-f5975197c9c1)
